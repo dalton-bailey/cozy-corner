@@ -14,11 +14,12 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="index.css">
   </head>
   <body class="text-white" style="background-color: #121212">
-    <div class="container px-lg-5">
-      <div class="row mx-lg-n5" style="font-size: 20px">
-        <div class="col py-3 px-lg-5">
+    <div class="container">
+      <div class="row" style="font-size: 20px">
+        <div class="col">
           <a class="text-white" href="tel:18016230450"
             ><i class="fas fa-phone-alt"></i>1(801)623-0450</a
           >
@@ -26,7 +27,7 @@
             ><i class="fas fa-map-marker-alt"></i>Visit Store</a
           >
         </div>
-        <div class="col py-3 px-lg-5" style="text-align: right">
+        <div class="col" style="text-align: right">
           <i class="fab fa-facebook"></i>
           <i class="fab fa-twitter"></i>
           <i class="fab fa-pinterest"></i>
@@ -34,12 +35,12 @@
         </div>
       </div>
     </div>
-    <div class="container px-lg-5">
-      <div class="row mx-lg-n5" style="margin: 2rem;">
-        <div class="col py-3 px-lg-5">
-          <h2 class="text-uppercase">Moon's Rare Books</h2>
+    <div class="container logo">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-uppercase"><a class="text-white" href="index.html">Cozy Corner</a></h2>
         </div>
-        <div class="col py-3 px-lg-5">
+        <div class="col search">
           <form class="form-inline" style="justify-content: flex-end">
             <input
               class="form-control mr-sm-2 text-white bg-dark"
@@ -60,7 +61,7 @@
     <nav>
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link text-white text-uppercase" href="#">Home</a>
+          <a class="nav-link text-white text-uppercase" href="index.html">Home</a>
         </li>
         <li class="nav-item dropdown">
           <a
@@ -72,7 +73,7 @@
             aria-expanded="false"
             >Catalog</a
           >
-          <div class="dropdown-menu bg-dark">
+          <div class="dropdown-menu" style="background-color: #121212;">
             <a class="dropdown-item text-white text-uppercase" href="#"
               >Books</a
             >
@@ -91,7 +92,7 @@
           <a class="nav-link text-white text-uppercase" href="#">Events</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white text-uppercase" href="#">Gallery</a>
+          <a class="nav-link text-white text-uppercase" href="gallery.html">Gallery</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white text-uppercase" href="contact.html">Contact</a>
@@ -104,10 +105,65 @@
         </li>
       </ul>
     </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-uppercase" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Catalog
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"></a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">Blog</a>
+          </li>
+          
+        </ul>
+        <form class="form-inline" style="justify-content: center;">
+          <input
+            class="form-control mr-sm-2 text-white bg-dark"
+            type="search"
+            placeholder="Search..."
+            aria-label="Search"
+            style="width: 90%;"
+          />
+          <button
+            class="btn btn-dark btn-outline-light my-2 my-sm-0"
+            type="submit"
+          >
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </nav>
     <div
       id="carouselExampleFade"
       class="carousel slide carousel-fade"
       data-ride="carousel"
+      style="margin-top:2rem;"
     >
       <div class="carousel-inner">
         <div
