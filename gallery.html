@@ -1,186 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cozy Corner</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body class="text-white" style="background-color: #121212">
-    <div class="container ">
-      <div class="row" style="font-size: 20px">
-        <div class="col">
-          <a class="text-white" href="tel:18016230450"
-            ><i class="fas fa-phone-alt"></i>1(801)623-0450</a
-          >
-          <a class="text-white text-uppercase" href="#"
-            ><i class="fas fa-map-marker-alt"></i>Visit Store</a
-          >
-        </div>
-        <div class="col" style="text-align: right">
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-pinterest"></i>
-          <i class="fab fa-yelp"></i>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cozy Corner</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="text-white" style="background-color: #121212">
+  <div class="container ">
+    <div class="row" style="font-size: 20px">
+      <div class="col">
+        <a class="text-white" href="tel:18016230450"><i class="fas fa-phone-alt"></i>1(801)623-0450</a>
+        <a class="text-white text-uppercase" href="#"><i class="fas fa-map-marker-alt"></i>Visit Store</a>
+      </div>
+      <div class="col" style="text-align: right">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-pinterest"></i>
+        <i class="fab fa-yelp"></i>
       </div>
     </div>
-    <div class="container logo">
-      <div class="row">
-        <div class="col">
-          <h2 class="text-uppercase"><a class="text-white" href="index.html">Cozy Corner</a></h2>
-        </div>
-        <div class="col search">
-          <form class="form-inline" style="justify-content: flex-end">
-            <input
-              class="form-control mr-sm-2 text-white bg-dark"
-              type="search"
-              placeholder="Search..."
-              aria-label="Search"
-            />
-            <button
-              class="btn btn-dark btn-outline-light my-2 my-sm-0"
-              type="submit"
-            >
-              <i class="fas fa-search"></i>
-            </button>
-          </form>
-        </div>
+  </div>
+  <div class="container logo">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-uppercase"><a class="text-white" href="index.html">Cozy Corner</a></h2>
       </div>
-    </div>
-    <nav>
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link text-white text-uppercase" href="index.html">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle text-white text-uppercase"
-            data-toggle="dropdown"
-            href="#"
-            role="button"
-            aria-haspopup="true"
-            aria-expanded="false"
-            >Catalog</a
-          >
-          <div class="dropdown-menu" style="background-color: #121212;">
-            <a class="dropdown-item text-white text-uppercase" href="#"
-              >Books</a
-            >
-            <a class="dropdown-item text-white text-uppercase" href="#"
-              >Antiques</a
-            >
-            <a class="dropdown-item text-white text-uppercase" href="#"
-              >Collectibles</a
-            >
-            <a class="dropdown-item text-white text-uppercase" href="#"
-              >Utah Art</a
-            >
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white text-uppercase" href="#">Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white text-uppercase" href="gallery.html">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white text-uppercase" href="contact.html"
-            >Contact</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white text-uppercase" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white text-uppercase" href="#">Blog</a>
-        </li>
-      </ul>
-    </nav>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link text-uppercase" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Catalog
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#"></a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-uppercase" href="#">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-uppercase" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-uppercase" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-uppercase" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-uppercase" href="#">Blog</a>
-          </li>
-          
-        </ul>
-        <form class="form-inline" style="justify-content: center;">
-          <input
-            class="form-control mr-sm-2 text-white bg-dark"
-            type="search"
-            placeholder="Search..."
-            aria-label="Search"
-            style="width: 90%;"
-          />
-          <button
-            class="btn btn-dark btn-outline-light my-2 my-sm-0"
-            type="submit"
-          >
+      <div class="col search">
+        <form class="form-inline" style="justify-content: flex-end">
+          <input class="form-control mr-sm-2 text-white bg-dark" type="search" placeholder="Search..."
+            aria-label="Search" />
+          <button class="btn btn-dark btn-outline-light my-2 my-sm-0" type="submit">
             <i class="fas fa-search"></i>
           </button>
         </form>
       </div>
-    </nav>
+    </div>
+  </div>
+  <nav>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link text-white text-uppercase" href="index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white text-uppercase" data-toggle="dropdown" href="#" role="button"
+          aria-haspopup="true" aria-expanded="false">Catalog</a>
+        <div class="dropdown-menu" style="background-color: #121212;">
+          <a class="dropdown-item text-white text-uppercase" href="#">Books</a>
+          <a class="dropdown-item text-white text-uppercase" href="#">Antiques</a>
+          <a class="dropdown-item text-white text-uppercase" href="#">Collectibles</a>
+          <a class="dropdown-item text-white text-uppercase" href="#">Utah Art</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white text-uppercase" href="#">Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white text-uppercase" href="gallery.html">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white text-uppercase" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white text-uppercase" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white text-uppercase" href="#">Blog</a>
+      </li>
+    </ul>
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-uppercase" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Catalog
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#"></a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" href="#">Blog</a>
+        </li>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/8ad599954f.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      </ul>
+      <form class="form-inline" style="justify-content: center;">
+        <input class="form-control mr-sm-2 text-white bg-dark" type="search" placeholder="Search..." aria-label="Search"
+          style="width: 90%;" />
+        <button class="btn btn-dark btn-outline-light my-2 my-sm-0" type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div style="padding: 3rem 0">
+      <h1 style="text-align: center;">Gallery</h1>
+      <hr style="margin-top: 1rem; border: 0; border-top: 1px solid #e1c79b" />
+
+    </div>
+    <div class="gallery" id="gallery">
+
+      <div class="mb-3">
+        <img class="img-fluid" src="images/gallery1.jpg" alt="books">
+      </div>
+
+      <div class="mb-3">
+        <img class="img-fluid" src="images/gallery2.jpg" alt="books">
+      </div>
+
+      <div class="mb-3">
+        <img class="img-fluid" src="images/gallery3.jpg" alt="books">
+      </div>
+
+      <div class="mb-3">
+        <img class="img-fluid" src="images/gallery4.jpg" alt="books">
+      </div>
+
+      <div class="mb-3">
+        <img class="img-fluid" src="images/gallery5.jpg" alt="books">
+      </div>
+
+      <div class="mb-3">
+        <img class="img-fluid" src="images/gallery6.jpg" alt="books">
+      </div>
+
+      <div class="mb-3">
+        <img class="img-fluid" src="images/gallery7.jpg" alt="books">
+      </div>
+
+      <div class="mb-3">
+        <img class="img-fluid" src="images/gallery8.jpg" alt="books">
+      </div>
+
+    </div>
+  </div>
+  <footer style="background-color: #292929; padding: 4rem 2rem; margin-top: 4rem">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h3 class="text-white">Navigation</h3>
+        <hr style="margin-top: 1rem; border: 0; border-top: 1px solid #e1c79b" />
+        <div>
+          <nav>
+            <ul style="padding: 0;">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Antiques</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Collectibles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Utah Art</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Blog</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3 class="text-white">Books To Sell</h3>
+        <hr style="margin-top: 1rem; border: 0; border-top: 1px solid #e1c79b" />
+        <div>
+          <p>Phasellus pulvinar, sapien sed tristique vestibulum, eros ligula facilisis dolor, vel venenatis nulla velit id lorem.</p>
+          <a href="contact.html" style="color: #e1c79b">Contact Us.</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h3 class="text-white">Store Information</h3>
+        <hr style="margin-top: 1rem; border: 0; border-top: 1px solid #e1c79b" />
+        <div class="row" style="background-color: #292929;">
+          <div class="col" style="display: flex; flex-direction: column; justify-content: space-around;">
+            <p style="font-size: 1.2rem">
+              4801 N. University Ave., Ste. 340, <br />Provo, UT 86404
+            </p>
+            <div>
+              <h5 style="color: #e1c79b">Store Phone</h5>
+              <a class="text-white" href="tel:18016230450"><i class="fas fa-phone-alt"></i>1(801)623-0450</a>
+            </div>
+
+            <div>
+              <h5 style="color: #e1c79b">Mobile Phone</h5>
+              <a class="text-white" href="tel:18019351376">
+                <i class="fas fa-phone-alt"></i>1(801)935-1976</a>
+            </div>
+            <div>
+              <h5 style="color: #e1c79b">Email</h5>
+              <a class="text-white" href="mailto:info@moonsrarebooks.com">
+                <i class="fas fa-envelope"></i>info@moonsrarebooks.com</a>
+            </div>
+            <div>
+              <h5 style="color: #e1c79b">Hours</h5>
+              <a class="text-white" href="mailto:info@moonsrarebooks.com">
+                <i class="fas fa-envelope"></i>info@moonsrarebooks.com</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+  <div class="copyright" style="background-color: #292929;">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          Copyright @ Bailey Dalton 2020
+        </div>
+        <div class="col" style="text-align: right; color: #e1c79b; font-size: 24px;">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-pinterest"></i>
+          <i class="fab fa-yelp"></i>
+      </div>
+      </div>
+        
+    </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8ad599954f.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
