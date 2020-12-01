@@ -9,7 +9,7 @@
 }
 
 @media only screen and (max-width: 991px) {
-  nav {
+  .top-nav {
     display: none;
   }
   .search {
@@ -51,6 +51,29 @@
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.social i {
+    color: #e1c79b;
+    padding-left: 5px;
+}
+
+.social i:hover {
+    color: white;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    color: #e1c79b;
+    text-decoration: underline;
+    background-color: transparent;
 }
 
 @media (max-width: 450px) {
