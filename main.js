@@ -9,7 +9,6 @@ const tl = gsap.timeline({
     scrollTrigger: {
         trigger: ".one ",
         start: "top center",
-        markers: true,
     }
 });
 
@@ -21,7 +20,6 @@ const tltwo = gsap.timeline({
     scrollTrigger: {
         trigger: ".two",
         start: "top center",
-        markers: true,
     }
 });
 
@@ -34,7 +32,6 @@ const tlthree = gsap.timeline({
     scrollTrigger: {
         trigger: ".three",
         start: "top center",
-        markers: true,
     }
 });
 
@@ -46,7 +43,6 @@ const tlfour = gsap.timeline({
     scrollTrigger: {
         trigger: ".four",
         start: "top center",
-        markers: true,
     }
 });
 
@@ -58,7 +54,6 @@ const tlfive = gsap.timeline({
     scrollTrigger: {
         trigger: ".five",
         start: "top center",
-        markers: true,
     }
 });
 
@@ -70,46 +65,42 @@ const tlsix = gsap.timeline({
     scrollTrigger: {
         trigger: ".six",
         start: "top center",
-        markers: true,
     }
 });
 
 tlsix
     .to('.six', { opacity: 1, duration: 0.8 });
 
-    const tlseven = gsap.timeline({
+const tlseven = gsap.timeline({
 
-        scrollTrigger: {
-            trigger: ".seven",
-            start: "top center",
-            markers: true,
-        }
-    });
-    
-    tlseven
-        .to('.seven', { opacity: 1, duration: 0.8 });
+    scrollTrigger: {
+        trigger: ".seven",
+        start: "top center",
+    }
+});
 
-        const tleight = gsap.timeline({
+tlseven
+    .to('.seven', { opacity: 1, duration: 0.8 });
 
-            scrollTrigger: {
-                trigger: ".eight",
-                start: "top center",
-                markers: true,
-            }
-        });
-        
-        tleight
-            .to('.eight', { opacity: 1, duration: 0.8 });
+const tleight = gsap.timeline({
 
-            const tlnine = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".eight",
+        start: "top center",
+    }
+});
 
-                scrollTrigger: {
-                    trigger: ".nine",
-                    start: "top center",
-                    markers: true,
-                }
-            });
-            
-            tlnine
-                .to('.nine', { opacity: 1, duration: 0.8 });
+tleight
+    .to('.eight', { opacity: 1, duration: 0.8 });
+
+const tlnine = gsap.timeline({
+
+    scrollTrigger: {
+        trigger: ".nine",
+        start: "top center",
+    }
+});
+
+tlnine
+    .to('.nine', { opacity: 1, duration: 0.8 });
 
